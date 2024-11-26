@@ -1,0 +1,49 @@
+.hero {
+    padding: 30px 0;
+
+    &__skj {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 4px;
+
+        img {
+            height: calc((100vh - 170px) / 2);
+            width: 100%;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+    }
+
+    &__mySwiper {
+        height: calc(100vh - 170px);
+    }
+
+    &__before {
+        position: absolute;
+        opacity: .85;
+        width: 100%;
+        height: calc(100vh - 170px);
+        background-color: #000000d0;
+        border-radius: 6px;
+    }
+
+    &__after {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        width: clamp(16.25rem, 10.938rem + 26.56vw, 37.5rem) !important;
+
+        h2 {
+
+            font-size: clamp(0.938rem, 0.875rem + 0.31vw, 1.188rem);
+            color: #fff;
+        }
+
+        p {
+            font-family: "Philosopher";
+            font-size: clamp(0.688rem, 0.594rem + 0.47vw, 1.063rem);
+            color: #c5c5c5;
+        }
+    }
+
+}

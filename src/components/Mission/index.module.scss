@@ -1,0 +1,169 @@
+.mission {
+    &__box {
+        height: 100%;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+
+        img {
+            transition: 0.3s;
+            width: 100%;
+            filter: brightness(50%);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &__logo {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 130px;
+        border-radius: 50%;
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 45%;
+        left: 57%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 130px;
+        border-radius: 50%;
+    }
+
+    &__text1 {
+        position: absolute;
+        top: 45%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+
+    }
+
+    &__arrow1 {
+        position: absolute;
+        top: 60%;
+        left: 41.5%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 160px;
+        border-radius: 50%;
+    }
+
+    &__text2 {
+        position: absolute;
+        top: 54%;
+        left: 29%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__arrow2 {
+        position: absolute;
+        top: 41%;
+        left: 44.5%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 160px;
+        border-radius: 50%;
+    }
+
+    &__text3 {
+        position: absolute;
+        top: 27%;
+        left: 44.5%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__arrow3 {
+        position: absolute;
+        top: 72%;
+        left: 53.5%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 160px;
+        border-radius: 50%;
+    }
+
+    &__text4 {
+        position: absolute;
+        top: 86%;
+        left: 53.5%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__arrow4 {
+        position: absolute;
+        top: 70%;
+        left: 43.5%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 160px;
+        border-radius: 50%;
+    }
+
+    &__text5 {
+        position: absolute;
+        top: 86%;
+        left: 25.5%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    &__arrow5 {
+        position: absolute;
+        top: 39%;
+        left: 53.5%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 560px;
+        height: 100%;
+        max-height: 120px;
+        border-radius: 50%;
+    }
+
+    &__text6 {
+        position: absolute;
+        top: 26%;
+        left: 66.5%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+}

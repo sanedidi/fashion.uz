@@ -1,0 +1,18 @@
+.header {
+
+    &__lang {
+        font-weight: 600;
+
+        &:hover {
+            background-color: rgb(163, 159, 159);
+            color: #fff;
+        }
+    }
+
+    &__links {
+        @media (max-width:670px) {
+            display: none !important;
+        }
+    }
+
+}
